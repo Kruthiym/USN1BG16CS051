@@ -1,0 +1,26 @@
+body {
+    background-image:url("photo/8.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    }
+    button{
+    background-color: white;
+    width:100px;
+    height:40px;
+    font-size:18px;
+    color:black;
+    
+}
+button:hover{
+    
+    color:pink;
+}
+div{
+    background-color: black;
+    color: white;
+    width:350px;
+    height:350px;
+    border: 2px solid black;
+    opacity:0.6;
+}
+
