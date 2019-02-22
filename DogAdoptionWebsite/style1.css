@@ -1,0 +1,63 @@
+ul{
+    list-style:none;
+    text-align: center;
+    padding:0;
+    margin:20;
+}
+li{
+    
+    display:inline-block;
+   width:150px;
+    border:2px solid white;
+    height:50px;
+    line-height:50px;
+    font-size:18px;
+    opacity:.8;
+}
+li a {
+    text-decoration: none;
+   color:white;
+}
+li a:hover {
+    color:pink;
+}
+button{
+    background-color: transparent;
+    width:110px;
+    border:2px solid pink;
+    height:50px;
+    line-height:50px;
+    font-size:18px;
+    color:white;
+    position: fixed;
+    
+}
+button:hover{
+    
+    color:pink;
+}
+p{
+    color:pink;
+    font-size: 25px;
+}
+h1{
+    color:pink;
+    font-size: 27px;
+    text-align: center;
+}
+h3{
+    color:white;
+    text-align: right;
+    font-size: 15px;
+    margin-right:150px;
+}
+.ab{
+    color:pink;
+    font-size: 20px;
+    margin-right:600px;
+}
+td{
+    text-align:center;
+}
+
+
