@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="style1.css">
+        <title>Pig Game</title>
+    </head>
+
+    <body>
+        <br>
+        <h1>PIG GAME</h1>
+<table>
+    <tr>
+        <td><h2>EASY</h2></td>
+        <td width=50px></td>
+        <td><h2>DIFFICULT</h2></td>
+    </tr>
+    <tr>
+        <td>    GAME RULES:
+                <br>
+                - The game has 2 players, playing in rounds
+                <br>
+                - In each turn, a player rolls a dice as many times as he wishes. Each result get added to his ROUND score
+                <br>
+                - BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn
+                <br>
+                - The player can choose to 'Hold', which means that his ROUND score gets added to his GLBAL score. After that, it's the next player's turn
+                <br>
+                - The first player to reach 100 points on GLOBAL score wins the game
+                
+        </td>
+        <td width=50px></td>
+        <td><br>
+                GAME RULES:
+                <br>
+                - The game has 2 players, playing in rounds
+                <br>
+                - In each turn, a player rolls 2 die as many times as he wishes. Each result of the sum of the die get added to his ROUND score
+                <br>
+                - BUT, if the player rolls equal number on each die, all his ROUND score gets lost. After that, it's the next player's turn
+                <br>
+                - The player can choose to 'Hold', which means that his ROUND score gets subtracted from his GLOBAL score. After that, it's the next player's turn
+                <br>
+                - The first player to reach exactly 0 points on GLOBAL score wins the game
+                <br>
+                - Constraints is that if the GLOBAL score is either 1 or 2 then that player loses the game
+                <br>
+                - Since we do not get a sum of 1 when 2 die are rolled and also the sum of 2 can only be obtained when on
+                <br>
+                each die there occurs a 1,but this is not possible since it violates the rule.
+        </td>
+    </tr>
+    <tr>
+        <td><form action="index1.html" method="post">
+            <button type="submit">Play Easy Game</button>
+            </form>
+        </td>
+        
+        <td width=50px></td>
+        <td><form action="index.html" method="post">
+            <button type="submit">Play Difficult Game</button>
+            </form>
+        </td>
+    </tr>
+</table>
+    </body>
+</html>
